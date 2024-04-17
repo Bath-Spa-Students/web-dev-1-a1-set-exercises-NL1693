@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling Calculator */
+.calc {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    width: 20%;
+}
+
+/* Styling Title */
+h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0vb;
+    border-style: inset;
+    border-radius: 10px;
+}
+
+/* Styling Input Labels */
+label {
+    font-size: 20px;
+    display: block;
+    margin-top: 10%;
+    margin-bottom: 5px;
+}
+
+/* Styling Input Containers */
+.input {
+    margin-top: 10%;
+    margin-bottom: 15px;
+}
+
+/* Styling Input Fields */
+input[type="number"] {
+    width: 93%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: border-color 0.3s ease-in-out;
+    margin-top: 10%;
+    margin-bottom: 15px;
+}
+
+/* Focused Effect on Input Field */
+input[type="number"]:focus {
+    border-color: #007BFF;
+}
+
+/* Styling Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover Effect on Button */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling Output */
+p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}

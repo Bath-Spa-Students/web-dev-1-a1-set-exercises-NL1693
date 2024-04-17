@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="calc">
+        <h2>Petrol Calculator</h2>
+        
+        <!-- Input Cost / Liter | Val = 1.72 -->
+        <div class="input">
+            <label for="cost">Cost / Liter (AED)</label>
+            <input type="number" id="cost" placeholder="Enter Cost / Liter" value="1.72">
+        </div>
+
+        <!-- Input Purchase | Val = 0 -->
+        <div class="input">
+            <label for="liters">Liters Purchased</label>
+            <input type="number" id="liters" placeholder="Enter Liters" value="0">
+        </div>
+
+        <!-- Calc Total Button -->
+        <button onclick="calcTotal()">Calculate Total</button>
+
+        <!-- Display Total -->
+        <p>Total Cost: <span id="totalCost">0</span> AED</p>
+    </div>
+</body>
+</html>
